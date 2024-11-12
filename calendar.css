@@ -1,0 +1,250 @@
+body{
+    font-family: "Afacad Flux",serif;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.calendar{
+    width: 30%;
+    background-color: white;
+    border-radius: 50px;
+}
+.cal-up{
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    position: relative;
+}
+#month{
+    font-size: 50px;
+    display: inline-block;
+}
+#year{
+    display: inline-block;
+    position: absolute;
+    top: 110px;
+    right: 50px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.cal-down{
+    height: 300px;
+    text-align: center;
+    position: relative;
+    background-color: white;
+    margin: 0;
+    display: inline-block;
+}
+#date{
+    font-size: 130px;
+    display:inline-block;
+    position: absolute;
+    top: -60px;
+    left: 140px;
+}
+#day{
+    font-size: 60px;
+    font-weight: 800;
+    position: absolute;
+    top: 140px;
+    left: 135px;
+    color: #6a11cb;
+}
+@media screen and (max-width: 1100px){
+    .calendar{
+        width: 50%;
+        background-color: white;
+        border-radius: 50px;
+    }
+    .cal-up{
+        background-color: #000;
+        color: white;
+        padding: 10px;
+        position: relative;
+    }
+    #month{
+        font-size: 50px;
+        display: inline-block;
+    }
+    #year{
+        display: inline-block;
+        position: absolute;
+        top: 110px;
+        right: 50px;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .cal-down{
+        height: 300px;
+        text-align: center;
+        position: relative;
+        background-color: white;
+        margin: 0;
+        display: inline-block;
+    }
+    #date{
+        font-size: 130px;
+        display:inline-block;
+        position: absolute;
+        top: -60px;
+        left: 180px;
+    
+    }
+    #day{
+        font-size: 60px;
+        font-weight: 800;
+        position: absolute;
+        top: 140px;
+        left: 170px;
+        color: #6a11cb;
+    }
+}
+@media screen and (max-width: 850px){
+    .calendar{
+        width: 70%;
+        background-color: white;
+        border-radius: 50px;
+    }
+    .cal-up{
+        background-color: #000;
+        color: white;
+        padding: 10px;
+        position: relative;
+    }
+    #month{
+        font-size: 50px;
+        display: inline-block;
+    }
+    #year{
+        display: inline-block;
+        position: absolute;
+        top: 110px;
+        right: 50px;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .cal-down{
+        height: 300px;
+        text-align: center;
+        position: relative;
+        background-color: white;
+        margin: 0;
+        display: inline-block;
+    }
+    #date{
+        font-size: 130px;
+        display:inline-block;
+        position: absolute;
+        top: -60px;
+        left: 200px;
+    
+    }
+    #day{
+        font-size: 60px;
+        font-weight: 800;
+        position: absolute;
+        top: 140px;
+        left: 190px;
+        color: #6a11cb;
+    }
+}
+@media screen and (max-width: 600px){
+    .calendar{
+        width: 80%;
+        background-color: white;
+        border-radius: 50px;
+    }
+    .cal-up{
+        background-color: #000;
+        color: white;
+        padding: 10px;
+        position: relative;
+    }
+    #month{
+        font-size: 50px;
+        display: inline-block;
+    }
+    #year{
+        display: inline-block;
+        position: absolute;
+        top: 110px;
+        right: 30px;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .cal-down{
+        height: 300px;
+        text-align: center;
+        position: relative;
+        background-color: white;
+        margin: 0;
+        display: inline-block;
+    }
+    #date{
+        font-size: 130px;
+        display:inline-block;
+        position: absolute;
+        top: -60px;
+        left: 150px;
+    }
+    #day{
+        font-size: 60px;
+        font-weight: 800;
+        position: absolute;
+        top: 140px;
+        left: 140px;
+        color: #6a11cb;
+    }   
+}
+
+@media screen and (max-width: 500px){
+    .calendar{
+        width: 60%;
+        background-color: white;
+        border-radius: 50px;
+    }
+    .cal-up{
+        background-color: #000;
+        color: white;
+        padding: 10px;
+        position: relative;
+    }
+    #month{
+        font-size: 30px;
+        display: inline-block;
+    }
+    #year{
+        display: inline-block;
+        position: absolute;
+        top: 55px;
+        right: 20px;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .cal-down{
+        height: 200px;
+        text-align: center;
+        position: relative;
+        background-color: white;
+        margin: 0;
+        display: inline-block;
+    }
+    #date{
+        font-size: 100px;
+        display:inline-block;
+        position: absolute;
+        top: -60px;
+        left: 60px;
+    }
+    #day{
+        font-size: 30px;
+        font-weight: 800;
+        position: absolute;
+        top: 110px;
+        left: 70px;
+        color: #6a11cb;
+    }
+}

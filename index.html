@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="calendar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="calendar">
+        <div class="cal-up">
+            <h3 id="month">November</h3>
+            <p id="year">2023</p>
+        </div>
+        <div class="cal-down">
+            <h1 id="date">17</h1>
+            <p id="day">SunDay</p>
+        </div>
+    </div>
+
+    <script>
+        let month = document.getElementById("month");
+        let year = document.getElementById("year");
+        let date = document.getElementById("date");
+        let day = document.getElementById("day");
+
+        let allMonths = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+        let weekDays = ["SunDay","MonDay","TuesDay","wednesDay","ThursDay","FriDay","SaturDay"];
+
+        let today = new Date();
+
+        month.innerHTML = allMonths[today.getMonth()];
+        year.innerHTML = today.getFullYear();
+        date.innerHTML = (today.getDate() <10? "0":"") + today.getDate();
+        day.innerHTML = weekDays[today.getDay()];
+
+    </script>
+</body>
+</html>
